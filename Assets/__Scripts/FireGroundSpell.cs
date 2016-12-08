@@ -57,8 +57,6 @@ public class FireGroundSpell : PT_MonoBehaviour
 
 	void OnTriggerStay(Collider other)
 	{
-		//Actually damage the other
-		//Get a refrence to the EnemyBug script component of the other
 		EnemyBug recipient = other.GetComponent<EnemyBug> ();
 		//If there is an enemyBug component, dmage it with fire
 		if (recipient != null)
