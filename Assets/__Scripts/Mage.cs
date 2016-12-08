@@ -510,6 +510,10 @@ public class Mage : PT_MonoBehaviour {
 		knockbackDir = (pos - enemy.pos).normalized;
 		invincibleBool = true;
 
+		///////////This is the part that plays the sound effect!!!!!!!!!!!
+		GetComponent<AudioSource>().clip = hurt;
+		GetComponent<AudioSource>().Play ();
+		///////////This is the part that plays the sound effect!!!!!!!!!!!
 	}
 
 	//The mage dies

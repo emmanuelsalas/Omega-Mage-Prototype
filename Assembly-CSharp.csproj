@@ -55,7 +55,6 @@
      <Compile Include="Assets\__Scripts\FireGroundSpell.cs" />
      <Compile Include="Assets\__Scripts\IceGroundSpell.cs" />
      <Compile Include="Assets\__Scripts\LayoutTiles.cs" />
-     <Compile Include="Assets\__Scripts\LifeGroundSpell.cs" />
      <Compile Include="Assets\__Scripts\Mage.cs" />
      <Compile Include="Assets\__Scripts\PT_FloatingScore.cs" />
      <Compile Include="Assets\__Scripts\PT_MonoBehaviour.cs" />
@@ -66,6 +65,7 @@
      <Compile Include="Assets\__Scripts\TapIndicator.cs" />
      <Compile Include="Assets\__Scripts\Tile.cs" />
      <Compile Include="Assets\__Scripts\Utils.cs" />
+     <Compile Include="Assets\__Scripts\WindGroundSpell.cs" />
      <None Include="Assets\__Scripts\UnlitAlpha.shader" />
      <None Include="Assets\Resources\Rooms.xml" />
  <Reference Include="UnityEngine.Networking">
