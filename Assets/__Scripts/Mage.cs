@@ -481,7 +481,6 @@ public class Mage : PT_MonoBehaviour {
 		if (spiker != null) {
 			// CollisionDamage() will see spiker as an Enemy
 			CollisionDamage(spiker);
-			// CollisionDamage(other.gameObject); // COMMENT OUT THIS LINE!
 		}
 	}
 
